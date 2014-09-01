@@ -1,6 +1,6 @@
-## Operation and Support {#operation-and-support}This section provides information about the operational and support aspects of the techtribes.je website.
+# Operation and Support {#operation-and-support}This section provides information about the operational and support aspects of the techtribes.je website.
 
-### Starting MySQL
+## Starting MySQL
 
 MySQL is installed as a service, and should be running after a server restart. You can check this by using the following command:
 
@@ -10,7 +10,7 @@ If you need to start MySQL, you can use the following command:
 
 	sudo service mysql start
 
-### Starting MongoDB
+## Starting MongoDB
 
 MongoDB is also installed as a service, and should be running after a server restart. You can check this by using the following commands:
 
@@ -21,7 +21,7 @@ If you need to start MongoDB, you can use the following command:
 
 	sudo service mongodb start
 	
-### Starting the Web Server
+## Starting the Web Server
 
 Apache Tomcat is also installed as a service, and should be running after a server restart. You can check this by using the following commands:
 
@@ -32,7 +32,7 @@ If you need to start Tomcat, you can use the following command:
 
 	~techtribesje/bin/start-tomcat.sh
 	
-### Starting the Content Updater
+## Starting the Content Updater
 
 The Content Updater is a standalone Java process that needs to be started manually after a server restart. You can do this with the following command (where XYZ is the build number):
 
@@ -42,11 +42,11 @@ You can check the log file with the following command:
 
 	~techtribesje/bin/updater-logs.sh XYZ
 
-### Monitoring
+## Monitoring
 
 The only monitoring on the techtribes.je website is [Pingdom](https://www.pingdom.com/), which is configured to test that the website is still accessible every 5 minutes. An e-mail is sent if the web server is detected to be unavailable.
 
-### Backups
+## Backups
 
 Both the MySQL and MongoDB databases are backed-up daily via a cron job at 3am GMT. You can check that this is scheduled with the following command:
 

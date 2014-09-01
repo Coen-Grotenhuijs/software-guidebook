@@ -1,8 +1,8 @@
-## Software Architecture {#software-architecture}
+# Software Architecture {#software-architecture}
 
 This section provides an overview of the techtribes.je software architecture.
 
-### Containers
+## Containers
 
 The following diagram shows the logical containers that make up the techtribes.je system. The diagram does not represent the physical number and location of containers - please see the [infrastructure](#infrastructure-architecture) and [deployment](#deployment) sections for this information.
 
@@ -14,7 +14,7 @@ The following diagram shows the logical containers that make up the techtribes.j
 - __NoSQL Data Store__: a MongoDB database that stores the tweets and blog posts.
 - __File System__: the file system stores Lucene search indexes.
 
-### Components - Content Updater 
+## Components - Content Updater 
 
 The following diagram shows the components that make up the standalone Content Updater.
 
@@ -27,7 +27,7 @@ In addition to some core components (detailed later), the standalone Content Upd
  - __GitHub Connector__:  This component is responsible for connecting to GitHub in order to refresh repository information. It's a Spring Bean that uses the [Eclipse Mylyn GitHub connector](http://www.eclipse.org/mylyn/). See [je.techtribes.component.githubconnector](https://github.com/techtribesje/techtribesje/tree/master/techtribes-updater/src/je/techtribes/component/githubconnector) for the code.
  - __News Feed Connector__:  This component is responsible for connecting to RSS/Atom feeds in order to refresh the news and blog posts aggregated into the techtribes.je website. It's a Spring Bean that uses the [ROME library](http://rometools.github.io/rome/). See [je.techtribes.component.newsfeedconnector](https://github.com/techtribesje/techtribesje/tree/master/techtribes-updater/src/je/techtribes/component/newsfeedconnector) for the code.
 
-### Components - Core 
+## Components - Core 
 
 The following diagram shows the common components that are used by the Web Server and the standalone Content Updater.
 

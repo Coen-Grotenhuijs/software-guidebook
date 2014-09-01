@@ -1,6 +1,6 @@
-## Infrastructure Architecture {#infrastructure-architecture}This section provides information about the infrastructure architecture of the techtribes.je website.
+# Infrastructure Architecture {#infrastructure-architecture}This section provides information about the infrastructure architecture of the techtribes.je website.
 
-### Live environment
+## Live environment
 
 The live environment is very simple; it's a single [Cloud Server at Rackspace](http://www.rackspace.com/cloud/servers/), hosted in the London region as follows:
 

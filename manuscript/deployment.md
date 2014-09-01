@@ -1,6 +1,6 @@
-## Deployment {#deployment}This section provides information about the mapping between the [software architecture](#software-architecture) and the [infrastructure architecture](#infrastructure-architecture).
+# Deployment {#deployment}This section provides information about the mapping between the [software architecture](#software-architecture) and the [infrastructure architecture](#infrastructure-architecture).
 
-### Software
+## Software
 
 The live environment is a single Rackspace cloud server and therefore all of the following software is installed on the server via the Ubuntu Advanced Packaging Tool (apt).
 
@@ -9,7 +9,7 @@ The live environment is a single Rackspace cloud server and therefore all of the
 - __MySQL 5.x__
 - __MongoDB 2.2.x__
 
-### Building techtribes.je
+## Building techtribes.je
 
 To avoid the "it works on my machine" syndrome, plus to ensure that builds are clean and repeatable, all releases are built by a continuous integration server - the free edition of TeamCity. The [build.xml script](https://github.com/techtribesje/techtribesje/blob/master/build.xml) does all of the heavy lifting of compiling, running the automated tests and creating a release package.
 
@@ -17,7 +17,7 @@ To avoid the "it works on my machine" syndrome, plus to ensure that builds are c
 
 The final part of the build script, if the build is successful, is to securely copy the release up to the techtribes.je Rackspace server.
 
-### Deploying techtribes.je
+## Deploying techtribes.je
 
 All of the techtribes.je software is installed underneath ~techtribesje/builds, with a subdirectory [per release](https://github.com/techtribesje/techtribesje/releases). There are a [number of scripts in GitHub](https://github.com/techtribesje/techtribesje-bin) that are used to unpack a release, switch version via symlinks and restart processes.
 
@@ -27,7 +27,7 @@ Deploying a new version, or rolling back to an old version, is as simple as runn
 	
 (where XYZ is the number of the build created by the TeamCity continuous integration server)
 
-### Configuration
+## Configuration
 
 The configuration files for the web server and content updater can be found at:
 
