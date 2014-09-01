@@ -4,4 +4,4 @@ This is the software guidebook for the [techtribes.je](http://techtribes.je) web
 
 This book is based upon the concept of a [software guidebook](https://leanpub.com/software-architecture-for-developers/read#software-guidebook) in my [Software Architecture for Developers](https://leanpub.com/software-architecture-for-developers) book. The software guidebook is a lightweight, pragmatic way to document the "big picture" of a software system.
 
-![](./images/sa4d-book.png)
+![](images/sa4d-book.png)
