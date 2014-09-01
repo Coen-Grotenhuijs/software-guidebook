@@ -1,4 +1,4 @@
-## Deployment {#sample-guidebook-deployment}This section provides information about the mapping between the [software architecture](#sample-guidebook-software-architecture) and the [infrastructure architecture](#sample-guidebook-infrastructure-architecture).
+## Deployment {#deployment}This section provides information about the mapping between the [software architecture](#software-architecture) and the [infrastructure architecture](#infrastructure-architecture).
 
 ### Software
 
@@ -13,7 +13,7 @@ The live environment is a single Rackspace cloud server and therefore all of the
 
 To avoid the "it works on my machine" syndrome, plus to ensure that builds are clean and repeatable, all releases are built by a continuous integration server - the free edition of TeamCity. The [build.xml script](https://github.com/techtribesje/techtribesje/blob/master/build.xml) does all of the heavy lifting of compiling, running the automated tests and creating a release package.
 
-![](images/sample-guidebook-deployment-1.png)
+![](images/deployment-1.png)
 
 The final part of the build script, if the build is successful, is to securely copy the release up to the techtribes.je Rackspace server.
 

@@ -1,12 +1,12 @@
-## Software Architecture {#sample-guidebook-software-architecture}
+## Software Architecture {#software-architecture}
 
 This section provides an overview of the techtribes.je software architecture.
 
 ### Containers
 
-The following diagram shows the logical containers that make up the techtribes.je system. The diagram does not represent the physical number and location of containers - please see the [infrastructure](#sample-guidebook-infrastructure-architecture) and [deployment](#sample-guidebook-deployment) sections for this information.
+The following diagram shows the logical containers that make up the techtribes.je system. The diagram does not represent the physical number and location of containers - please see the [infrastructure](#infrastructure-architecture) and [deployment](#deployment) sections for this information.
 
-![](images/sample-guidebook-software-architecture-1.png)
+![](images/software-architecture-1.png)
 
 - __Web Application__: an Apache Tomcat 7 web server that is the single point of access for the techtribes.je website from the Internet.
 - __Content Updater__: a standalone Java 7 application that updates information from Twitter, GitHub and blogs.
@@ -18,7 +18,7 @@ The following diagram shows the logical containers that make up the techtribes.j
 
 The following diagram shows the components that make up the standalone Content Updater.
 
-![](images/sample-guidebook-software-architecture-2.png)
+![](images/software-architecture-2.png)
 
 In addition to some core components (detailed later), the standalone Content Updater process consists of the following components:
 
@@ -31,7 +31,7 @@ In addition to some core components (detailed later), the standalone Content Upd
 
 The following diagram shows the common components that are used by the Web Server and the standalone Content Updater.
 
-![](images/sample-guidebook-software-architecture-3.png)
+![](images/software-architecture-3.png)
 
 Here is a brief summary of each core component:
 

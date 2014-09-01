@@ -1,10 +1,10 @@
-## Principles {#sample-guidebook-principles}This section provides information about the principles adopted for the development of the techtribes.je website.
+## Principles {#principles}This section provides information about the principles adopted for the development of the techtribes.je website.
 
 ### Package by component
 
 To provide a simple mapping of the [software architecture](#sample-guidebook-software-architecture) into the code, the package structure of the code reflects a "package by component" convention rather than "package by layer".
 
-![](images/sample-guidebook-principles-1.png)
+![](images/principles-1.png)
 
 This means that the codebase is broken up into a number of components, each of which has:
 

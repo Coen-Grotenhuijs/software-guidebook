@@ -1,4 +1,4 @@
-## Quality Attributes {#sample-guidebook-quality-attributes}This section provides information about the desired quality attributes (non-functional requirements) of the techtribes.je website.
+## Quality Attributes {#quality-attributes}This section provides information about the desired quality attributes (non-functional requirements) of the techtribes.je website.
 
 ### Performance
 

@@ -1,6 +1,5 @@
 frontmatter:
 
-preface.md
 about-the-book.md
 about-the-author.md
 sa4d-training.md

@@ -1,4 +1,4 @@
-## Operation and Support {#sample-guidebook-operation-and-support}This section provides information about the operational and support aspects of the techtribes.je website.
+## Operation and Support {#operation-and-support}This section provides information about the operational and support aspects of the techtribes.je website.
 
 ### Starting MySQL
 

@@ -1,4 +1,4 @@
-## Functional Overview {#sample-guidebook-functional-overview}
+## Functional Overview {#functional-overview}
 
 This section provides a summary of the functionality provided by the [techtribes.je](http://techtribes.je) website.
 

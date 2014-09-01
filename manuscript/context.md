@@ -1,8 +1,8 @@
-## Context {#sample-guidebook-context}
+## Context {#context}
 
 The [techtribes.je](http://techtribes.je) website provides a way to find people, tribes (businesses, communities, interest groups, etc) and content related to the tech, IT and digital sector in Jersey and Guernsey. At the most basic level, it's a content aggregator for local tweets, news, blog posts, events, talks, jobs and more. Here's a context diagram that provides a visual summary of this:
 
-![](images/sample-guidebook-context-1.png)
+![](images/context-1.png)
 
 The purpose of the website is to:
 

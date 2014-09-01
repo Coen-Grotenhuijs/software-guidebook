@@ -1,4 +1,4 @@
-## Infrastructure Architecture {#sample-guidebook-infrastructure-architecture}This section provides information about the infrastructure architecture of the techtribes.je website.
+## Infrastructure Architecture {#infrastructure-architecture}This section provides information about the infrastructure architecture of the techtribes.je website.
 
 ### Live environment
 

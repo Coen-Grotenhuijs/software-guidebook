@@ -1,4 +1,4 @@
-## Constraints {#sample-guidebook-constraints}This section provides information about the constraints imposed on the development of the techtribes.je website.
+## Constraints {#constraints}This section provides information about the constraints imposed on the development of the techtribes.je website.
 
 ### Budget
 
