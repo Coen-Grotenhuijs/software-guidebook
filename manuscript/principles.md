@@ -2,7 +2,7 @@
 
 ## Package by component
 
-To provide a simple mapping of the [software architecture](#sample-guidebook-software-architecture) into the code, the package structure of the code reflects a "package by component" convention rather than "package by layer".
+To provide a simple mapping of the [software architecture](#software-architecture) into the code, the package structure of the code reflects a "package by component" convention rather than "package by layer".
 
 ![](images/principles-1.png)
 

@@ -18,7 +18,7 @@ Although most of the techtribes.je website can be viewed by anonymous users, it 
 
 ## Availability
 
-Since techtribes.je is a not a mission critical system and [has a limited budget](#sample-guidebook-constraints), there are no strict availability targets.
+Since techtribes.je is a not a mission critical system and [has a limited budget](#constraints), there are no strict availability targets.
 
 ## Internationalisation
 
