@@ -1,0 +1,31 @@
+# Preface
+
+The IT industry is either taking giant leaps ahead or it's in deep turmoil. On the one hand we're pushing forward, reinventing the way that we build software and striving for craftsmanship at every turn. On the other though, we're continually forgetting the good of the past and software teams are still screwing up on an alarmingly regular basis.
+
+Software architecture plays a pivotal role in the delivery of successful software yet it's frustratingly neglected by many teams. Whether performed by one person or shared amongst the team, the software architecture role exists on even the most agile of teams yet the balance of up front and evolutionary thinking often reflects aspiration rather than reality.
+
+## Software architecture has a bad reputation
+
+I tend to get one of two responses if I introduce myself as a software architect. Either people think it's really cool and want to know more or they give me a look that says "I want to talk to somebody that actually writes software, not a box drawing hand-waver". The software architecture role has a bad reputation within the IT industry and it's not hard to see where this has come from.
+
+The thought of "software architecture" conjures up visions of ivory tower architects doing big design up front and handing over huge UML (Unified Modeling Language) models or 200 page Microsoft Word documents to an unsuspecting development team as if they were the second leg of a relay race. And that's assuming the architect actually gets involved in designing software of course. Many people seem to think that creating a Microsoft PowerPoint presentation with a slide containing a big box labelled "Enterprise Service Bus" *is* software design. Oh, and we mustn't forget the obligatory narrative about "ROI" (return on investment) and "TCO" (total cost of ownership) that will undoubtedly accompany the presentation.
+
+Many organisations have an interesting take on software development as a whole too. For example, they've seen the potential cost savings that offshoring can bring and therefore see the coding part of the software development process as being something of a commodity. The result tends to be that local developers are pushed into the "higher value" software architecture jobs with an expectation that all coding will be undertaken by somebody else. In many cases this only exaggerates the disconnect between software architecture and software development, with people often being pushed into a role that they are not prepared for. These same organisations often tend to see software architecture as a rank rather than a *role* too.
+
+## Agile aspirations
+
+"Agile" might be over ten years old, but it's still the shiny new kid in town and many software teams have aspirations of "becoming agile". Agile undoubtedly has a number of benefits but it isn't necessarily the silver bullet that everybody wants you to believe it is. As with everything in the IT industry, there's a large degree of evangelism and hype surrounding it. Start a new software project today and it's all about self-organising teams, automated acceptance testing, continuous delivery, retrospectives, Kanban boards, emergent design and a whole host of other buzzwords that you've probably heard of. This is fantastic but often teams tend to throw the baby out with the bath water in their haste to adopt all of these cool practices. "Non-functional requirements" not sounding cool isn't a reason to neglect them.
+
+What's all this old-fashioned software architecture stuff anyway? Many software teams seem to think that they don't need software architects, throwing around terms like "self-organising team", "YAGNI" (you aren't going to need it), "evolutionary architecture" and "last responsible moment" instead. If they do need an architect, they'll probably be on the lookout for an "agile architect". I'm not entirely sure what this term actually means, but I assume that it has something to do with using post-it notes instead of UML or doing TDD (test-driven development) instead of drawing pictures. That is, assuming they get past the notion of only using a very high level system metaphor and don't use "emergent design" as an excuse for foolishly hoping for the best.
+
+## So you think you're an architect?
+
+It also turns out there are a number of people in the industry claiming to be software architects whereas they're actually doing something else entirely. I can forgive people misrepresenting themselves as an "Enterprise Architect" when they're actually doing hands-on software architecture within a large enterprise. The terminology in our industry *is* often confusing after all.
+
+But what about those people that tend to exaggerate the truth about the role they play on software teams? Such irresponsible architects are usually tasked with being the technical leader yet fail to cover the basics. I've seen public facing websites go into a user acceptance testing environment with a number of basic security problems, a lack of basic performance testing, basic functionality problems, broken hyperlinks and a complete lack of documentation. And that was just my external view of the software, who knows what the code looked like. If you're undertaking the software architecture role and you're delivering stuff like this, you're doing it wrong. This *isn't* software architecture, it's also foolishly hoping for the best.
+
+## The frustrated architect
+
+Admittedly not all software teams are like this but what I've presented here isn't a "straw man" either. Unfortunately many organisations do actually work this way so the reputation that software architecture has shouldn't come as any surprise.
+
+If we really do want to succeed as an industry, we need to get over our fascination with shiny new things and starting asking some questions. Does agile need architecture or does architecture actually need agile? Have we forgotten more about good software design than we've learnt in recent years? Is foolishly hoping for the best sufficient for the demanding software systems we're building today? Does any of this matter if we're not fostering the software architects of tomorrow? How do we move from frustration to serenity?
